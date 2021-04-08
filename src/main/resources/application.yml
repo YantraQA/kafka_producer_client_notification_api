@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    listener:
+      missing-topics-fatal: false
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+producer:
+  kafka:
+    topic-name: notification
+#    topic-name: test-fw-1-logs
