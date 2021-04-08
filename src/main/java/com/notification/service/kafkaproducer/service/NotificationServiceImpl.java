@@ -20,7 +20,8 @@ public class NotificationServiceImpl implements NotificationService {
 
     @Override
     public void send(Notification notification) {
-        brokerProducerService.sendMessage(env.getProperty("producer.kafka.topic-name"), toJson(notification));
+        //brokerProducerService.sendMessage(env.getProperty("producer.kafka.topic-name"), toJson(notification));
+        brokerProducerService.sendMessage(notification.getTopicName(), toJson(notification));
     }
 
 

@@ -12,6 +12,7 @@ import lombok.ToString;
  @NoArgsConstructor
 public class Notification {
     private Long id;
+    private String topicName;
     private String content;
-     private NotificationType type;
+    private NotificationType type;
 }
