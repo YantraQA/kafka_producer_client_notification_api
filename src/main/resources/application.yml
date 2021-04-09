@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: localhost:9091
     listener:
       missing-topics-fatal: false
 

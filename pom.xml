@@ -77,7 +77,7 @@
                             <jvmFlag>-Xmx512m</jvmFlag>
                         </jvmFlags>
                         <ports>
-                            <port>8005</port>
+                            <port>8082</port>
                         </ports>
                     </container>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
