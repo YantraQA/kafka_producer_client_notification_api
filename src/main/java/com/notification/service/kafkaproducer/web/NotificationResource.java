@@ -2,6 +2,7 @@ package com.notification.service.kafkaproducer.web;
 
 import com.notification.service.kafkaproducer.model.Notification;
 import com.notification.service.kafkaproducer.service.NotificationService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
